@@ -6,6 +6,7 @@ class Solution(object):
                 del nums[k]
             else :
                 k +=1
+        return k
         """
         :type nums: List[int]
         :type val: int
